@@ -6,11 +6,11 @@
 import Foundation
 class MovieViewModel: ObservableObject {
     @Published var movies: [Movie] = [
-        Movie(name: "Lightning Theif", genre: "Science Fiction", imageName: "inception", description: "A thief who steals corporate secrets through dream-sharing technology."),
-        Movie(name: "The Matrix", genre: "Action", imageName: "matrix", description: "A computer hacker learns about the true nature of his reality and his role in the war against its controllers."),
-        Movie(name: "The Grand Budapest Hotel", genre: "Comedy", imageName: "grandbudapest", description: "The adventures of Gustave H, a legendary concierge at a famous European hotel."),
+        Movie(name: "Lightning Theif", genre: "Fiction", imageName: "percy", description: "A thief who steals zues's lightning."),
+        Movie(name: "Dune", genre: "Fiction", imageName: "dune", description: "House Atredies takes over the planet arrakis from the harkonens and ignites a war."),
+        Movie(name: "End Game", genre: "Fiction", imageName: "endgame", description: "Thanos obliterates half the population."),
         Movie(name: "Interstellar", genre: "Adventure", imageName: "interstellar", description: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."),
-        Movie(name: "Mad Max: Fury Road", genre: "Action", imageName: "madmax", description: "In a post-apocalyptic wasteland, Max teams up with Furiosa to flee from a tyrant."),
+        Movie(name: "Avatar the Last Airbender", genre: "Fiction", imageName: "avatar", description: "All the airbenders are wiped out and Aang is the last surving airbender tasked with saving the world."),
     ]
     
     
